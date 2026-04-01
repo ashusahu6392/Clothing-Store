@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cormorant{
+    font-family: 'Cormorant Garamond', serif;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-img{
+    filter: brightness(0);
+}
+.ctm-link{
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    margin: 0 10px;   
+}
+.ctm-link:hover{
+    color: gray;
+}
+.active{
+    color: grey !important;
+}
+.first-hero-div{
+    background-image: url(../assets/images/bg-10.jpg);
+    padding: 13rem 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.first-hero-div::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.first-h1-heading{
+    text-transform: capitalize;
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: 600;
+    color: white;
+
+    position: relative;
+    z-index: 3;
+}
+.arrow{
+    color: white;
+    font-size: 12px;
+    vertical-align: baseline;
+    margin: 0;
+}
+.first-a-div{
+    position: relative;
+    z-index: 3;
+}
+.first-a-div a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tenth-inner-div{
+    padding: 4rem;
+}
+.tenth-h6-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.tab-design{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color: gray;
+}
+.tab-design:hover{
+    color: #000;
+}
+
+.tenth-h-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color: gray;
+}
