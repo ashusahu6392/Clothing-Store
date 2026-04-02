@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    background-image: url(../assets/images/About-bg-08.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.first-section::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.hero-section{
+    padding: 14rem 0;
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+}
+.ctm-link{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    margin: 0 10px;   
+}
+.first-h1-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: italic;
+}
+/* .container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+} */
+
+.second-section{
+    padding: 6rem 4rem;
+}
+
+.h5-heading{
+     font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.h2-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 64.4px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.h6-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 13px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.third-section{
+    background-image: url(../assets/images/About-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.third-section::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.third-inner-div{
+    position: relative;
+    z-index: 3;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+.fifth-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    padding: 15px 35px;
+    border: 1px solid white;
+}
+
+.ninth-section{
+    background-image: url(../assets/images/bg-005.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.ninth-section::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(7, 7, 7, 0.466);
+}
+.ninth-inner-div{
+    position: relative;
+    z-index: 3;
+    padding: 6rem 0;
+}
+
+.ninth-para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.ninth-h2-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 64.4px;
+   
+    font-style: italic;
+}
+
+.tenth-inner-div{
+    padding: 4rem;
+}
+.tenth-h6-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.tab-design{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color: gray;
+}
+.tab-design:hover{
+    color: #000;
+}
+
+.tenth-h-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color: gray;
+}
